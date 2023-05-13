@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Descripción del Vehículo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+		integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style/style_detalles.css">
+</head>
+
+<body>
+	<!-- Crear la barra de navegacion superior -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-darkgrey ">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="Images/carslogo.png" alt="..." height="36">
+			</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="INDEX.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Categoria
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">A</a></li>
+							<li><a class="dropdown-item" href="#">B</a></li>
+							<li><a class="dropdown-item" href="#">C</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">Cerrar</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Mecanico
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Eduardo de la fuente</a></li>
+							<li><a class="dropdown-item" href="#">Guillermo Miranda Gomez</a></li>
+							<li><a class="dropdown-item" href="#">Marco Antonio Solis</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">Cerrar</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Menu
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Contacto</a></li>
+							<li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">Cerrar</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-12">
+				<h2>Imagen del Vehículo</h2>
+				<img src="Images/cuchau.jpg" alt="Rayo Makquin" class="item">
+			</div>
+			<div class="col-1"></div>
+		</div>
+		<h2>Descripción del Vehículo</h2>
+		<div class="row">
+			<div class="col-6" >
+				<p ><h5>Seguridad</h5>
+					<b>6 airbags / ABS / VSC / HAC / Camara de retroceso</b>
+					<br>
+					<h5>Conectividad</h5> <b>Apple Carplay y Android Auto con enlace inalambrico / Cargadir inalambrico</b>
+				</p>
+			</div>
+			<div class="col-6" >
+				<h5>Transmision</h5> <b>Mecanica 5 velocidades</b>
+				<br>
+				<h5>Rendimiento</h5> <b>20,4 km/l Carretera - 13,1 km/l Ciudad - 16,9 km/l Mixto</b>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-4" >
+				<p class="parrafor"><u>Nombre del Mecánico</u></p>
+			</div>
+			<div class="col-4" >
+				<p class="parrafor">Guillermo Miranda Gomez</p>
+				<ul>
+					<li>Edad= 22 años</li>
+					<li>Sexo = M</li>
+					<li>Rut = 222222-2</li>
+				</ul>
+			</div>
+			<div class="col-4" >
+				<p><img src="Images/silueta.png" alt="Guillermo Miranda Gomez" class="item" height="190px"></p>
+			</div>
+		</div>
+		<h2>Fecha de ingreso y salido del taller</h2>
+		<div class="row">
+			<div class="col-6" >
+				<p class="parrafor" >Llegada: Lunes 10 de abril del 2023</p>
+			</div>
+			<div class="col-6" >
+				<p class="parrafor">Salida: Lunes 24 de abril del 2023</p>
+			</div>
+		</div>
+		<h2>Materiales Utilizados</h2>
+		<div class="row">
+			<div class="col-3" ></div>
+			<div class="col-6">
+				<ul>
+					<li>Gatos hidráulicos</li>
+					<li>Llaves de impacto</li>
+					<li>Boinas para pulido</li>
+					<li>Equipo de seguridad</li>
+				</ul>
+			</div>
+			<div class="col-3" ></div>
+		</div>
+		<h2>Diagnostico</h2>
+		<p class="parrafos">El auto no arranca debido al mal estado del auto, por otro lado se ve que el radiador no hace su refrigeracion correspondiente</p>
+		</div>
+		<h2>Galeria de imagenes</h2>
+		
+		<div id="galeria">
+			<a href="Images/cars1.jpg" class="imagen"><img src="Images/cars1.jpg" ></a>
+			<a href="Images/cars2.jpg" class="imagen"><img src="Images/cars2.jpg"></a>
+			<a href="Images/cars3.jpg" class="imagen"><img src="Images/cars3.jpg"></a>
+		  </div>
+
+
+
+			
+			
+
+
+</body>
+
+</html>
